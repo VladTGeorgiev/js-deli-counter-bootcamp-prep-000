@@ -1,14 +1,10 @@
 function takeANumber(arr, newCustomer) {
 
-  var arr = []
-
   arr.push(newCustomer)
   return `Welcome, ${newCustomer}. You are number ${arr.length} in line.`
 }
 
 function nowServing(arr) {
-
-  var arr = []
 
   if (!arr.length) {
     return 'There is nobody waiting to be served!'
