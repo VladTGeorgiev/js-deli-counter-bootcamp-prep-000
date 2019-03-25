@@ -1,7 +1,9 @@
-function takeANumber(arr, newCustomer) {
+var number = 0;
 
-  arr.push(newCustomer)
-  return `Welcome, ${newCustomer}. You are number ${arr.length} in line.`
+function takeANumber(arr) {
+
+  arr.push(number +=1)
+  return `You are number ${arr.length} in line.`
 }
 
 function nowServing(arr) {
